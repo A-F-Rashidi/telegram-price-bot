@@ -1,0 +1,21 @@
+{
+  "name": "telegram-price-bot-multisource",
+  "version": "3.1.2",
+  "private": true,
+  "type": "module",
+  "description": "Cloudflare Worker Telegram market price bot with Nerkh, TGJU and Navasan fallbacks",
+  "scripts": {
+    "test": "node --test ./test/bot.test.js",
+    "dev": "wrangler dev --test-scheduled",
+    "db:local": "wrangler d1 execute telegram-price-bot-db --local --file=./schema.sql",
+    "check": "wrangler deploy --dry-run",
+    "deploy": "wrangler deploy",
+    "tail": "wrangler tail"
+  },
+  "devDependencies": {
+    "wrangler": "4.125.0"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

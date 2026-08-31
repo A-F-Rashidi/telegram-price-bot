@@ -1,0 +1,21 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "telegram-price-bot-multisource",
+	"main": "src/index.js",
+	"compatibility_date": "2026-08-23",
+	"triggers": {
+		"crons": [
+			"* * * * *"
+		]
+	},
+	"d1_databases": [
+	  {
+	    "binding": "DB",
+	    "database_name": "telegram-price-bot-db",
+	    "database_id": "27a46fc6-b583-4cc8-86d6-eabe5ea628c0"
+	  }
+	],
+	"observability": {
+		"enabled": true
+	}
+}
