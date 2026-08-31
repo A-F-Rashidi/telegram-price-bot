@@ -51,8 +51,6 @@ TELEGRAM_ADMIN_USER_ID="YOUR_TELEGRAM_NUMERIC_USER_ID"
 NERKH_API_TOKEN=""
 ```
 
-> فایل `.dev.vars` را هرگز روی GitHub قرار ندهید.
-
 ## ورود به Cloudflare
 
 ```bash
