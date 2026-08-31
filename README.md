@@ -21,21 +21,9 @@ A Telegram bot for displaying currency, gold, silver and coin prices using **Clo
 - Nerkh quota protection with caching and cooldown
 - Automatic fallback when a source fails
 
-## Example Output
+## Preview
 
-```text
-📊 Market Price Update
-🕐 1405/06/08 — 14:00
-
-💵 USD — 206,010  🟢 +2.7%
-💶 EUR — 238,790  🟢 +2.18%
-🪙 USDT — 205,091  🟢 +1.4%
-🥇 18K Gold — 21,845,500  🟢 +0.87%
-🥈 Silver 999 — 462,680  ⚪ 0%
-🟡 Emami Coin — 217,000,000  ⚪ 0%
-
-💰 Prices are shown in Iranian Toman.
-```
+![Bot Preview](./assets/bot-preview.png)
 
 ## Requirements
 
