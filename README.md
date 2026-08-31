@@ -1,5 +1,3 @@
-# Telegram Price Bot
-
 🇬🇧 English | [🇮🇷 فارسی](./README-FA.md)
 
 # Telegram Currency, Gold & Coin Price Bot
