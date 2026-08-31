@@ -205,8 +205,6 @@ npx wrangler d1 create telegram-price-bot-db
 
 Update `database_id`, apply the schema, upload secrets and deploy again.
 
-> Disable the old Worker's Cron Trigger to avoid duplicate Telegram messages.
-
 ## License
 
 This project is distributed under the terms of the `LICENSE` file.
