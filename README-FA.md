@@ -34,7 +34,7 @@
 ## نصب
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/telegram-price-bot.git
+git clone https://github.com/A-F-Rashidi/telegram-price-bot.git
 cd telegram-price-bot
 npm install
 ```
@@ -195,55 +195,6 @@ http://127.0.0.1:8787
 npm test
 ```
 
-## امنیت
-
-این فایل‌ها نباید Commit شوند:
-
-```text
-.dev.vars
-.env
-.env.*
-.wrangler/
-node_modules/
-database-backup.sql
-*.log
-```
-
-نمونه `.gitignore`:
-
-```gitignore
-node_modules/
-.wrangler/
-.dev.vars
-.env
-.env.*
-*.log
-database-backup.sql
-```
-
-اگر توکن یا Secret روی GitHub منتشر شد، فوراً آن را Revoke/Rotate کنید.
-
-## ساختار پیشنهادی پروژه
-
-```text
-telegram-price-bot/
-├── src/
-├── test/
-├── README.md
-├── README-FA.md
-├── CHANGELOG.md
-├── LICENSE
-├── .gitignore
-├── package.json
-├── package-lock.json
-├── schema.sql
-├── wrangler.jsonc
-├── SETUP-WINDOWS.cmd
-├── RUN-WINDOWS.cmd
-├── RUN-CRON-LOCAL.cmd
-└── TEST-WINDOWS.cmd
-```
-
 ## انتقال به حساب Cloudflare دیگر
 
 ```bash
@@ -253,8 +204,6 @@ npx wrangler d1 create telegram-price-bot-db
 ```
 
 بعد `database_id` جدید را در `wrangler.jsonc` بگذارید، Schema و Secretها را اعمال کنید و دوباره Deploy بزنید.
-
-> Cron Worker قدیمی را غیرفعال کنید تا پیام تکراری ارسال نشود.
 
 ## لایسنس
 
