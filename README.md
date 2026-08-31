@@ -37,7 +37,7 @@ A Telegram bot for displaying currency, gold, silver and coin prices using **Clo
 ## Installation
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/telegram-price-bot.git
+git clone https://github.com/A-F-Rashidi/telegram-price-bot.git
 cd telegram-price-bot
 npm install
 ```
@@ -53,8 +53,6 @@ TELEGRAM_WEBHOOK_SECRET="YOUR_RANDOM_WEBHOOK_SECRET"
 TELEGRAM_ADMIN_USER_ID="YOUR_TELEGRAM_NUMERIC_USER_ID"
 NERKH_API_TOKEN=""
 ```
-
-> Never commit `.dev.vars` to GitHub.
 
 ## Cloudflare Login
 
@@ -197,56 +195,6 @@ http://127.0.0.1:8787
 ```bash
 npm test
 ```
-
-## Security
-
-Never commit:
-
-```text
-.dev.vars
-.env
-.env.*
-.wrangler/
-node_modules/
-database-backup.sql
-*.log
-```
-
-Recommended `.gitignore`:
-
-```gitignore
-node_modules/
-.wrangler/
-.dev.vars
-.env
-.env.*
-*.log
-database-backup.sql
-```
-
-If a token or secret is accidentally published, revoke or rotate it immediately.
-
-## Recommended Structure
-
-```text
-telegram-price-bot/
-├── src/
-├── test/
-├── README.md
-├── README-FA.md
-├── CHANGELOG.md
-├── LICENSE
-├── .gitignore
-├── package.json
-├── package-lock.json
-├── schema.sql
-├── wrangler.jsonc
-├── SETUP-WINDOWS.cmd
-├── RUN-WINDOWS.cmd
-├── RUN-CRON-LOCAL.cmd
-└── TEST-WINDOWS.cmd
-```
-
 ## Migrating to Another Cloudflare Account
 
 ```bash
