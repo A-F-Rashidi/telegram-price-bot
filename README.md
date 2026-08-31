@@ -1,3 +1,7 @@
+# Telegram Price Bot
+
+🇬🇧 English | [🇮🇷 فارسی](./README-FA.md)
+
 # Telegram Currency, Gold & Coin Price Bot
 
 A Telegram bot for displaying currency, gold, silver and coin prices using **Cloudflare Workers**, **Cloudflare D1**, and multiple price sources with automatic fallback support.
